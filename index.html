@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=M+PLUS+1+Code:wght@100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,16 +28,16 @@
             <div class="container">
                 <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#sobre-a-loja">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Destaque</a>
+                        <a href="#destaques">Destaque</a>
                     </li>
                     <li>
-                        <a href="#">Promoções</a>
+                        <a href="#promo">Promoções</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contatos">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +48,7 @@
         <img src="images/slide2.png" alt="carro BMW">
         <img src="images/slide3.png" alt="Carro da Ford">
     </div>
-    <section id="sobre-a-loja">
+    <section class="sobre-a-loja">
         <div class="container container-flex">
             <img src="images/loja.jpg" alt="Loja da EBAC Motors">
             <div>
@@ -57,18 +60,20 @@
     </section>
 
     <section>
-        <div class="container">
+        <div id="destaques" class="container">
             <h2>Em destaque</h2>
             <ul class="container-flex lista-veiculos">
                 <li>
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
-                    <p>
-                        Câmbio automático, 4 portas, vidros e travas eçetricas.
-                    </p>
+                    <img class="image" src="images/carro-bmw.png" alt="carro bmw">
+                    <h3>BMW Serie 8 conversível</h3>
+                    <div class="descricao">
+                        <p>
+                            Câmbio automático, 2 portas, vidros e travas eletricas.
+                        </p>
+                    </div>
                     <div class="price">
                         <strong>
-                            R$75.000,00
+                            R$569.000,00
                         </strong>
                     </div>
                     <button type="button">
@@ -76,14 +81,16 @@
                     </button>
                 </li>
                 <li class="item-central">
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
-                    <p>
-                        Câmbio automático, 4 portas, vidros e travas eçetricas.
-                    </p>
+                    <img class="image" src="images/moto-bmw.png" alt="fusca vw">
+                    <h3>BMW K1300S</h3>
+                    <div class="descricao">
+                        <p>
+                            Injeção eletrônica, 145 cv
+                        </p>
+                    </div>
                     <div class="price">
                         <strong>
-                            R$75.000,00
+                            R$65.000,00
                         </strong>
                     </div>
                     <button type="button">
@@ -91,14 +98,16 @@
                     </button>
                 </li>
                 <li>
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
-                <p>
-                    Câmbio automático, 4 portas, vidros e travas eçetricas.
-                </p>
+                    <img class="image" src="images/fordgt.jpg" alt="Ford GT">
+                    <h3>Ford GT</h3>
+                <div class="descricao">
+                    <p>
+                        Câmbio automático, 2 portas, vidros e travas elétricas.
+                    </p>
+                </div>
                 <div class="price">
                     <strong>
-                        R$75.000,00
+                        R$258.000,00
                     </strong>
                 </div>
                 <button type="button">
@@ -106,14 +115,16 @@
                 </button>
                 </li>
                 <li>
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
-                <p>
-                    Câmbio automático, 4 portas, vidros e travas eçetricas.
-                </p>
+                    <img class="image" src="https://quatrorodas.abril.com.br/wp-content/uploads/2023/03/05_911_GTS_1FLP0141-2.jpg?quality=70&strip=info&w=1280&h=720&crop=1" alt="porsche 911 carrera">
+                    <h3>Porsche 911 Carrera</h3>
+                <div class="descricao">
+                    <p>
+                        Câmbio automático, 2 portas, vidros e travas elétricas.
+                    </p>
+                </div>
                 <div class="price">
                     <strong>
-                        R$75.000,00
+                        R$585.000,00
                     </strong>
                 </div>
                 <button type="button">
@@ -121,14 +132,16 @@
                 </button>
                 </li>
                 <li class="item-central">
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
-                <p>
-                    Câmbio automático, 4 portas, vidros e travas eçetricas.
-                </p>
+                    <img class="image" src="images/mustang.jpg" alt="ford mustang">
+                    <h3>Ford Mustang</h3>
+                <div class="descricao">
+                    <p>
+                        Câmbio automático, 2 portas, vidros e travas elétricas.
+                    </p>
+                </div>
                 <div class="price">
                     <strong>
-                        R$75.000,00
+                        R$225.000,00
                     </strong>
                 </div>
                 <button type="button">
@@ -140,19 +153,19 @@
     </section>
 
     <section>
-        <div class="container">
+        <div id="promo" class="container">
             <h2>Promoções</h2>
             <ul class="container-flex lista-veiculos">
                 <li>
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
+                    <img class="image" src="images/chevrolet-onix-joy.jpg" alt="chevlolet onix">
+                    <h3>Chevrolet Ônix</h3>
                     <p>
-                        Câmbio automático, 4 portas, vidros e travas eçetricas.
+                        Câmbio automático, 4 portas, vidros e travas elétricas.
                     </p>
                     <div class="price">
-                        <del>R$100.000,00</del>
+                        <del>R$60.000,00</del>
                         <strong>
-                            R$75.000,00
+                            R$40.000,00
                         </strong>
                     </div>
                     <button type="button">
@@ -160,15 +173,15 @@
                     </button>
                 </li>
                 <li class="item-central">
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
+                    <img class="image" src="images/fusca.png" alt="Fusca VW">
+                    <h3>Fusca VW</h3>
                     <p>
-                        Câmbio automático, 4 portas, vidros e travas eçetricas.
+                        Câmbio manual, 2 portas, travas elétricas.
                     </p>
                     <div class="price">
-                        <del>R$100.000,00</del>
+                        <del>R$20.000,00</del>
                         <strong>
-                            R$75.000,00
+                            R$12.000,00
                         </strong>
                     </div>
                     <button type="button">
@@ -176,13 +189,13 @@
                     </button>
                 </li>
                 <li>
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
+                    <img class="image" src="https://www.infomoney.com.br/wp-content/uploads/2019/06/citroen-ds5-2013.jpg?fit=900%2C598&quality=50&strip=all" alt="citroen ds5">
+                    <h3>Citroen DS5</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas eçetricas.
+                    Câmbio automático, 4 portas, vidros e travas elétricas.
                 </p>
                 <div class="price">
-                    <del>R$100.000,00</del>
+                    <del>R$90.000,00</del>
                     
                     <strong>
                         R$75.000,00
@@ -193,16 +206,16 @@
                 </button>
                 </li>
                 <li>
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
+                    <img class="image" src="https://s2-autoesporte.glbimg.com/6JPMMUfpp6vhukPbEhTyZ-OnTZ8=/0x0:1400x931/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2021/O/E/HHZ9ksTLqE5VYl8pLAuw/fiat-pulse-drive-13-cvt-003.jpg" alt="fiat pulse">
+                    <h3>Fiat Pulse</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas eçetricas.
+                    Câmbio automático, 4 portas, vidros e travas elétricas.
                 </p>
                 <div class="price">
-                    <del>R$100.000,00</del>
+                    <del>R$120.000,00</del>
                     
                     <strong>
-                        R$75.000,00
+                        R$69.000,00
                     </strong>
                 </div>
                 <button type="button">
@@ -210,16 +223,16 @@
                 </button>
                 </li>
                 <li class="item-central">
-                    <img src="images/carro-bmw.png" alt="carro bmw">
-                    <h3>Carro BMW</h3>
+                    <img class="image" src="https://s2-autoesporte.glbimg.com/CBHSHtY_oi7ROHhpGA6Ek6lryCg=/0x0:1697x1131/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/a/O/7k0Kl3Q8i0kzUpyTjkmg/audi-a5.jpg" alt="Audi a5">
+                    <h3>Audi A5</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas eçetricas.
+                    Câmbio automático, 4 portas, vidros e travas elétricas.
                 </p>
                 <div class="price">
-                    <del>R$100.000,00</del>
+                    <del>R$180.000,00</del>
                     
                     <strong>
-                        R$75.000,00
+                        R$97.000,00
                     </strong>
                 </div>
                 <button type="button">
@@ -261,20 +274,20 @@
     <footer>
         <div class="container container-flex">
             <p>2023 &copy; EBAC Motors - Todos os direitos reservados</p>
-            <ul class="container-flex">
+            <ul class="container-flex redes">
                 <li>
-                    <a href="">
-                        <img src="icones/facebook.png" alt="logo facebook">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <img class="image" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMTcgMUgzYy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMTAxLjkgMiAyIDJoN3YtN0g4VjkuNTI1aDJ2LTIuMDVjMC0yLjE2NCAxLjIxMi0zLjY4NCAzLjc2Ni0zLjY4NGwxLjgwMy4wMDJ2Mi42MDVoLTEuMTk3Yy0uOTk0IDAtMS4zNzIuNzQ2LTEuMzcyIDEuNDM4djEuNjloMi41NjhMMTUgMTJoLTJ2N2g0YzEuMSAwIDItLjg5OSAyLTJWM2MwLTEuMS0uOS0yLTItMiIvPjwvc3ZnPg==" alt="logo facebook">
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="icones/instagram.png" alt="logo instagram">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <img class="image" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMTcgMUgzYy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMTAxLjkgMiAyIDJoMTRjMS4xIDAgMi0uODk5IDItMlYzYzAtMS4xLS45LTItMi0yTTkuOTg0IDE1LjUyM2E1LjUzOSA1LjUzOSAwIDAgMCA1LjUzOC01LjUzOWMwLS4zMzgtLjA0My0uNjY0LS4xMDMtLjk4NEgxN3Y3LjIxNmEuNjkuNjkgMCAwIDEtLjY5My42OUgzLjY5M2EuNjkuNjkgMCAwIDEtLjY5My0uNjlWOWgxLjU0OWMtLjA2MS4zMi0uMTA0LjY0Ni0uMTA0Ljk4NGE1LjU0IDUuNTQgMCAwIDAgNS41MzkgNS41MzlNNi41MjMgOS45ODRhMy40NjEgMy40NjEgMCAxIDEgNi45MjIgMGEzLjQ2MSAzLjQ2MSAwIDAgMS02LjkyMiAwTTE2LjMwNyA2aC0xLjYxNUEuNjk0LjY5NCAwIDAgMSAxNCA1LjMwOFYzLjY5MWMwLS4zODIuMzEtLjY5MS42OTEtLjY5MWgxLjYxNWMuMzg0IDAgLjY5NC4zMDkuNjk0LjY5MXYxLjYxNmMwIC4zODEtLjMxLjY5My0uNjkzLjY5MyIvPjwvc3ZnPg==" alt="logo instagram">
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="icones/youtube.png" alt="logo youtube">
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <img class="image" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMTAgMi4zQy4xNzIgMi4zIDAgMy4xNzQgMCAxMHMuMTcyIDcuNyAxMCA3LjdzMTAtLjg3NCAxMC03LjdzLS4xNzItNy43LTEwLTcuN20zLjIwNSA4LjAzNGwtNC40OSAyLjA5NmMtLjM5My4xODItLjcxNS0uMDIyLS43MTUtLjQ1NlY4LjAyNmMwLS40MzMuMzIyLS42MzguNzE1LS40NTZsNC40OSAyLjA5NmMuMzkzLjE4NC4zOTMuNDg0IDAgLjY2OCIvPjwvc3ZnPg==" alt="logo youtube">
                     </a>
                 </li>
             </ul>
